@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .api.qr import qr_route
+from .api.qr import router as qr_route
 
 app = FastAPI()
 

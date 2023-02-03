@@ -18,7 +18,6 @@ App is built using Python 3.9.1 and FastAPI. check the requirements.txt file for
     ```bash
     uvicorn main:app --reload
     ```
-    ```
 ### Usage of the API :
 
 1. To generate a QR code, send a GET request to the following address:

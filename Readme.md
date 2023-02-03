@@ -28,7 +28,7 @@ App is built using Python 3.9.1 and FastAPI. check the requirements.txt file for
 
 2. To generate a QR code with a custom size, send a GET request to the following address:
 
-    [ ] : Note: The size of the QR code is in pixels. - to be added later
+    [x] : Note: The size of the QR code is in pixels. - to be added later
 
     ```bash
     http://localhost:5000/qr?link=www.google.com&size=500

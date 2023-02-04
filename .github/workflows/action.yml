@@ -9,4 +9,6 @@ jobs:
       - uses: BogDAAAMN/deta-deploy-action@v1.0.1
         with:
           deta-access-token: ${{ secrets.DETA_ACCESS_TOKEN }} #Deta access token https://docs.deta.sh/docs/cli/auth
-          deta-name: 'qrcode' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
+          deta-name: 'qr' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
+          deta-project: 'qrcode' #Optional: Deta project name https://docs.deta.sh/docs/cli/commands/#deta-clone
+          deta-project-dir: '.' #Optional: directory to be deployed on Deta. Default is the root "." 
